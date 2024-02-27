@@ -25,3 +25,15 @@ document.getElementById('phone-plus').addEventListener('click', function () {
 document.getElementById('phone-minus').addEventListener('click', function () {
  updateProductNumber('phone', 1219, false)
 })
+
+
+
+// handle case increase and decrease
+//1. case increase
+document.getElementById('case-plus').addEventListener('click', function () {
+ updateProductNumber('case', 59, true)
+})
+//2. case decrease
+document.getElementById('case-minus').addEventListener('click', function () {
+ updateProductNumber('case', 59, false)
+})
