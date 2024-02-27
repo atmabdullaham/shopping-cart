@@ -52,88 +52,93 @@
     </nav>
 
     <main>
-      <section>
-        <div class="container">
-          <h2>My shopping cart</h2>
-          <div class="cart">
-            <div class="col-md-12 col-lg-10 mx-auto">
-              <div class="cart-item">
-                <div class="row">
-                  <div class="col-md-7 center-item">
-                    <img src="images/product-1.png" alt="" />
-                    <h5>iPhone 11 128GB Black</h5>
-                  </div>
+      <section class="">
+        <!-- Main div. It contain one  H2 and div  -->
+        <div class="p-16 bg-slate-300 m-52 mt-16">
+          <h2>Shopping cart</h2>
+          <!-- Secondary div. It contanis four div. -->
+          <div class="">
+            <!-- Macbook div -->
+            <div class="bg-red-400">
+              <div class="flex justify-between">
+                <div class="h-40 w-40">
+                  <img
+                    class="h-40 w-40 rounded-2xl"
+                    src="images/macbook-air-m2.png"
+                    alt=""
+                  />
+                  <h5>Apple MacBook Air (M2)</h5>
+                </div>
 
-                  <div class="col-md-5 center-item">
-                    <div class="input-group number-spinner">
-                      <button id="phone-minus" class="btn btn-default">
-                        <i class="fas fa-minus"></i>
-                      </button>
-                      <input
-                        id="phone-number"
-                        type="number"
-                        min="0"
-                        class="form-control text-center"
-                        value="1"
-                      />
-                      <button id="phone-plus" class="btn btn-default">
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </div>
-                    <h5>$ <span id="phone-total">1219</span></h5>
-                    <img src="images/remove.png" alt="" class="remove-item" />
+                <div class="">
+                  <div class="">
+                    <button id="phone-minus" class="">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <input
+                      id="phone-number"
+                      type="number"
+                      min="0"
+                      class=""
+                      value="1"
+                    />
+                    <button id="phone-plus" class="">
+                      <i class="fas fa-plus"></i>
+                    </button>
                   </div>
+                  <h5>$ <span id="phone-total">1219</span></h5>
+                  <img src="images/remove.png" alt="" class="" />
                 </div>
               </div>
-
-              <div class="cart-item">
-                <div class="row">
-                  <div class="col-md-7 center-item mx-auto">
-                    <img src="images/product-2.png" alt="" />
-                    <h5>iPhone 11 Silicone Case - Black</h5>
+            </div>
+            <!-- Headphone div -->
+            <div class="bg-blue-400">
+              <div class="flex justify-between">
+                <div class="h-40 w-40">
+                  <img class="h-40 w-40" src="images/headphone.png" alt="" />
+                  <h5>Beats Solo3 Wireless Headphones - Gold</h5>
+                </div>
+                <div class="">
+                  <div class="">
+                    <button id="case-minus" class="">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <input
+                      id="case-number"
+                      type="number"
+                      min="0"
+                      class=""
+                      value="1"
+                    />
+                    <button id="case-plus" class="">
+                      <i class="fas fa-plus"></i>
+                    </button>
                   </div>
-                  <div class="col-md-5 center-item">
-                    <div class="input-group number-spinner">
-                      <button id="case-minus" class="btn btn-default">
-                        <i class="fas fa-minus"></i>
-                      </button>
-                      <input
-                        id="case-number"
-                        type="number"
-                        min="0"
-                        class="form-control text-center"
-                        value="1"
-                      />
-                      <button id="case-plus" class="btn btn-default">
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </div>
-                    <h5>$ <span id="case-total">59</span></h5>
-                    <img src="images/remove.png" alt="" class="remove-item" />
-                  </div>
+                  <h5>$<span id="case-total">199.95</span></h5>
+                  <img src="images/remove.png" alt="" class="" />
                 </div>
               </div>
+            </div>
+            <!-- Summary div -->
+            <div class="bg-green-500">
+              <h3>Checkout Summary</h3>
+              <div class="flex mx-auto justify-between">
+                <div class="">
+                  <h5>Subtotal:</h5>
+                  <h5>Tax:</h5>
+                  <h5>Total:</h5>
+                </div>
 
-              <div class="cart-item">
-                <div class="row">
-                  <div class="col-md-8">
-                    <h5>Subtotal:</h5>
-                    <h5>Tax:</h5>
-                    <h5>Total:</h5>
-                  </div>
-
-                  <div class="col-md-4 status">
-                    <h5>$ <span id="sub-total">1278</span></h5>
-                    <h5>$<span id="tax-amount">0</span></h5>
-                    <h5>$<span id="total">1278</span></h5>
-                  </div>
+                <div class="">
+                  <h5>$ <span id="sub-total">1199</span></h5>
+                  <h5>$<span id="tax-amount">0</span></h5>
+                  <h5>$<span id="total">1199</span></h5>
                 </div>
               </div>
-              <div class="col-md-12 pt-4 pb-4">
-                <button type="button" class="btn btn-success check-out">
-                  Check Out
-                </button>
-              </div>
+            </div>
+            <!-- confirm button div -->
+            <div class="">
+              <button type="button" class="">Confirm Order</button>
             </div>
           </div>
         </div>
